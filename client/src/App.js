@@ -4,7 +4,7 @@ import Cards from './components/Cards.js'
 
 
 
-function App() {
+function App() {  
   return (
     <div>
       <Cards />

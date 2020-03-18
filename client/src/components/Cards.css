@@ -1,0 +1,12 @@
+.outer_container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner_container {
+    border: 1px solid red;
+    width: 18rem;
+    height: 18rem;
+    padding: 10rem
+}
