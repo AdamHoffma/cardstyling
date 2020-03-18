@@ -4,17 +4,16 @@
     flex-wrap: wrap;
     justify-content: center;
     border: 2px solid green;
-    margin: auto
+    margin: auto;    
 }
 
 .inner_container {
+    display: flex;
     border: 1px solid red;
     width: 42%;
     height: 12rem;
-    margin: 1.2rem;
-    text-align: center;    
+    margin: 1.2rem;    
+    align-items: center;    
+    justify-content: center;
 }
 
-.text {
-    align-content: center;
-}
