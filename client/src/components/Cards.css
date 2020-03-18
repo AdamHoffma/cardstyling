@@ -1,12 +1,20 @@
 .outer_container {
     width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    border: 2px solid green;
+    margin: auto
 }
 
 .inner_container {
     border: 1px solid red;
-    width: 18rem;
-    height: 18rem;
-    padding: 10rem
+    width: 42%;
+    height: 12rem;
+    margin: 1.2rem;
+    text-align: center;    
+}
+
+.text {
+    align-content: center;
 }
